@@ -1,0 +1,223 @@
+.nav-bar {
+    display: flex;
+    padding: 0px;
+    overflow: hidden;
+    opacity: 70%;
+    z-index: 1;
+}
+.tabs {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    background-color: rgb(110, 8, 8);
+    margin-top: 0px;
+    padding: 0%;
+}
+
+h3 {
+    font-size: 20px;
+    color: 6c584c;
+    text-align: center;
+    color: white;
+}
+
+a {
+    padding-top: 0px;
+    align-content: center;
+    text-decoration: none;
+    color: white;
+    padding-right: 45px;
+    padding-left: 10px;
+}
+
+.userName {
+    margin: 10px;
+}
+
+.password {
+    margin: 10px;
+}
+h2{
+    color: white;
+}
+.button {
+    margin: 10px;
+    align-content: center;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr
+}
+.register {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    border: 1px solid black;
+    width: 20vw;
+    padding-right: 50px;
+    margin-right: 50px;
+}
+.signUp{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+body{
+    background-color: black;
+    width: 100vw;
+    background-image: url(msc-background.jpg);
+    margin: 0px;
+    padding: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 100%;
+}
+
+
+.login{
+    border: 1px solid black;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    color:rgb(179, 60, 60) ;
+    font-weight: bolder;
+}
+.signIn, .accountSignUp{
+    text-align: center;
+}
+.accountSignUp{
+    margin-bottom: 20px;
+    margin-top: 10px;
+    font-weight: bolder;
+    color: rgb(179, 60, 60);
+    font-size: 20px;
+    
+}
+
+.footer{
+    background-color: maroon;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    padding-top:30px;
+    opacity:70%;
+}
+a:active{
+    color: aquamarine;
+}
+.image{
+    width: 250px;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+    margin: 20px;
+}
+.image{
+    transition: 2s ease-in;
+    
+}
+.image:hover{
+    transform: rotate(360deg);
+}
+.tableContainer{
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-size: 20px;
+    height: 150px;
+
+}
+.gif{
+    width: 100px;
+}
+.babysitting{
+    border: 1px solid black;
+    display: flex;
+    
+}
+.housekeeping{
+    border: 1px solid black;
+    display: flex;
+}
+/* .dropdown{
+    display: inline-block;
+}
+.dropdown button{
+    background-color: aliceblue;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+.dropdownp a{
+    display: block;
+    color: black;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+.dropdown .content{background-color: hsl(0, 0%, 95%);
+position: absolute;
+min-width: 100px;
+box-shadow: 2px 2px 5px hsla(0,0%,0%.0.8);
+display:none}
+
+.dropdown:hover .content{
+    display:block;
+}
+.dropdown:hover button{
+    background-color: hs1(0,0%,70%);
+}
+.dropdown a:hover {
+    background-color: hsl(0,0%,90%);
+} */
+h1{
+    text-align: center;
+}
+.reviews{
+    font-size: 75px;
+    color: red;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.mainReviews{
+    display:flex;
+    flex-direction: column;
+}
+.review1{
+    border: 1px solid pink;
+    font-size: 25px;
+    display: flex;
+    width: 400px;
+    color: green;
+}
+.review2{
+    border: 1px solid red;
+    font-size: 25px;
+    display: flex;
+    width: 400px;
+    color: blueviolet;
+}
+.review3{
+    border: 1px solid grey;
+    font-size: 25px;
+    display: flex;
+    width: 400px;
+    color: brown;
+}
+.reviewsGif{
+    width: 25vww;
+}
+a:visited {
+    color: green;
+}
