@@ -14,6 +14,7 @@
     background-color: rgb(110, 8, 8);
     margin-top: 0px;
     padding: 0%;
+    font-size: 25px;
 }
 
 h3 {
@@ -32,6 +33,9 @@ a {
     padding-left: 10px;
 }
 
+.raves{
+    text-align: center;
+}
 .userName {
     margin: 10px;
 }
@@ -40,7 +44,7 @@ a {
     margin: 10px;
 }
 h2{
-    color: white;
+    color: gray
 }
 .button {
     margin: 10px;
@@ -61,6 +65,7 @@ h2{
     width: 20vw;
     padding-right: 50px;
     margin-right: 50px;
+    background-color: lightgray;
 }
 .signUp{
     display: flex;
@@ -77,8 +82,6 @@ body{
     background-size: cover;
     opacity: 100%;
 }
-
-
 .login{
     border: 1px solid black;
     width: 20vw;
@@ -87,6 +90,7 @@ body{
     font-size: 20px;
     color:rgb(179, 60, 60) ;
     font-weight: bolder;
+    background-color: lightgray;
 }
 .signIn, .accountSignUp{
     text-align: center;
@@ -97,16 +101,15 @@ body{
     font-weight: bolder;
     color: rgb(179, 60, 60);
     font-size: 20px;
-    
 }
-
 .footer{
     background-color: maroon;
     height:150px;
     display: flex;
     justify-content: center;
-    padding-top:30px;
     opacity:70%;
+    border: 1px solid black;
+    margin-top: 200px;
 }
 a:active{
     color: aquamarine;
@@ -117,10 +120,23 @@ a:active{
     justify-content: flex-end;
     display: flex;
     margin: 20px;
+    transition: 2s ease-in;}
+
+.box{
+    background-color: lightgray;
+    opacity: 90;
+    padding: 50px;
+    border-radius: 50%;
 }
-.image{
-    transition: 2s ease-in;
-    
+.clientReviews{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    justify-content: center;
+    transition: 2s;
+}
+.clientReviews:hover{
+    transform: rotate(10deg);
 }
 .image:hover{
     transform: rotate(360deg);
@@ -130,12 +146,13 @@ a:active{
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     justify-content: space-evenly;
-    color: red;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bolder;
     font-size: 20px;
-    height: 150px;
-
+    height:75%;
+    width: 75%;
+    margin-top: 100px;
+    margin-left: 50px;
 }
 .gif{
     width: 100px;
@@ -143,43 +160,18 @@ a:active{
 .babysitting{
     border: 1px solid black;
     display: flex;
-    
+    background-color: lightgray;
+    padding: 70px;
+    border-radius: 50%;
 }
 .housekeeping{
     border: 1px solid black;
     display: flex;
+    background-color: lightgray;
+    padding: 70px;
+    border-radius: 50%;
 }
-/* .dropdown{
-    display: inline-block;
-}
-.dropdown button{
-    background-color: aliceblue;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    cursor: pointer;
-}
-.dropdownp a{
-    display: block;
-    color: black;
-    text-decoration: none;
-    padding: 10px 15px;
-}
-.dropdown .content{background-color: hsl(0, 0%, 95%);
-position: absolute;
-min-width: 100px;
-box-shadow: 2px 2px 5px hsla(0,0%,0%.0.8);
-display:none}
 
-.dropdown:hover .content{
-    display:block;
-}
-.dropdown:hover button{
-    background-color: hs1(0,0%,70%);
-}
-.dropdown a:hover {
-    background-color: hsl(0,0%,90%);
-} */
 h1{
     text-align: center;
 }
@@ -189,35 +181,47 @@ h1{
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: white;
+    opacity: 70%;
 }
-.mainReviews{
+/* .mainReviews{
     display:flex;
     flex-direction: column;
-}
+} */
 .review1{
     border: 1px solid pink;
     font-size: 25px;
     display: flex;
     width: 400px;
-    color: green;
+    color: black;
 }
 .review2{
     border: 1px solid red;
     font-size: 25px;
     display: flex;
     width: 400px;
-    color: blueviolet;
+    color: black;
+    
 }
 .review3{
     border: 1px solid grey;
     font-size: 25px;
     display: flex;
     width: 400px;
-    color: brown;
+    color: black;
 }
 .reviewsGif{
     width: 25vww;
 }
 a:visited {
     color: green;
+}
+.title{
+    color: black;
+    background-color: white;
+    opacity: 70%
+}
+.giphy{
+    border: 1px solid black;
+    width: 25%; 
 }
